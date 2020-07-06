@@ -1,0 +1,38 @@
+/* ============================================= */
+/* Color variables */
+/* ============================================= */
+
+ $color-primary: #279e4b; 
+ $color-secondary: #34e2a8; 
+ $color-tertiary: #b8409a; 
+ $color-quadernary: #927bc1; 
+ $color-quinary: #083a17; 
+ $color-senary: #ec4d25; 
+
+ $color-text: rgb(19, 18, 18); 
+ $color-btn: #fff; 
+
+ 
+//Color key value pairs for .themes.col
+$themes: (
+    1: #927bc1,
+    2: #ec4d25,
+    3: #deb2ee,
+    4: #7ee6fd,
+    5: #88d9a0,
+    6: #4da2bb,
+    7: #ec9fa3,
+    8: #fd9f85,
+    9: #b8409a,
+   10: #083a17,
+   11: #34e2a8,
+   12: #80e8d1,
+);
+
+
+//Button transition
+$btn-transition: background-color 1s ease-in-out;
+
+
+//Media query breakpoint
+ $brk-med: '(min-width: 768px)';
