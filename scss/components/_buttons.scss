@@ -6,7 +6,7 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $color-btn;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -14,21 +14,36 @@
 }
 
 .default {
-  background-color: #51ddfc;
-}
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: #63cc82;
-}
-
-.warning {
-  background-color: #fd7856;
-}
+  background-color: $color-secondary;
+  &:hover {
+    background-color: lighten($color-secondary ,15%);
+  }
+  }
+  .error {
+    background-color: $color-tertiary;
+    &:hover {
+      background-color: lighten($color-tertiary ,10%);
+    }
+    }
+    
+    .info {
+    background-color: $color-quadernary;
+    &:hover {
+      background-color: lighten($color-quadernary ,10%);
+    }
+    }
+    
+    .success {
+    background-color: $color-quinary;
+    &:hover {
+      background-color: lighten($color-quinary ,10%);
+    }
+    }
+    
+    .warning {
+    background-color: $color-senary;
+    &:hover {
+      background-color: lighten($color-senary ,10%);
+    }
+    }
+    
