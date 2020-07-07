@@ -166,11 +166,11 @@ a {
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: #34e2a8 ;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: #b8409a;
 }
 
 .info {
@@ -178,11 +178,11 @@ a {
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: #083a17;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: #ec4d25;
 }
 
 
