@@ -9,11 +9,3 @@
 }
 
 
-@mixin button($col) {
-    background-color: $col;
-    &:hover {
-      background-color: lighten($col, 15%);
-    }
-  }
-
-

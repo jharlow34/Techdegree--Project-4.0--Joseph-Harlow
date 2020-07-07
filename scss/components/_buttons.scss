@@ -15,35 +15,21 @@
 
 .default {
   background-color: $color-secondary;
-  &:hover {
-    background-color: lighten($color-secondary ,15%);
-  }
   }
   
   .error {
   background-color: $color-tertiary;
-  &:hover {
-    background-color: lighten($color-tertiary ,15%);
-  }
   }
   
   .info {
   background-color: $color-quadernary;
-  &:hover {
-    background-color: lighten($color-quadernary ,15%);
-  }
   }
   
   .success {
   background-color: $color-quinary;
-  &:hover {
-    background-color: lighten($color-quinary ,15%);
-  }
   }
   
   .warning {
   background-color: $color-senary;
-  &:hover {
-    background-color: lighten($color-senary ,15%);
   }
-  }
+  

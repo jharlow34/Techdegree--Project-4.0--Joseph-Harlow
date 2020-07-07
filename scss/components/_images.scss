@@ -11,7 +11,7 @@
 .img-frame {
   @include images;
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px solid $color-primary;
 }
 
 .img-logo {
