@@ -9,9 +9,14 @@
  $color-quinary: #083a17; 
  $color-senary: #ec4d25; 
 
- $color-text: rgb(19, 18, 18); 
+
  $color-btn: #fff; 
 
+ //* Font & Text *//
+ $color-text: rgb(19, 18, 18); 
+ $font-stack-primary: 'Lato', sans-serif;
+
+ 
  
 //Color key value pairs for .themes.col
 $themes: (
