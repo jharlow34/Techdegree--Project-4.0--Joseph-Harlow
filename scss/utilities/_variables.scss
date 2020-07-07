@@ -5,10 +5,6 @@
  $color-primary: #279e4b; 
  $color-secondary: #34e2a8; 
  $color-tertiary: #b8409a; 
- $color-quadernary: #927bc1; 
- $color-quinary: #083a17; 
- $color-senary: #ec4d25; 
-
 
  //* Buttons *//
  $color-btn: #fff; 
@@ -17,22 +13,19 @@
  $color-text: rgb(19, 18, 18); 
  $font-stack-primary: 'Lato', sans-serif;
 
- 
-//Color key value pairs for .themes.col
-$themes: (
-    1: #927bc1,
-    2: #ec4d25,
-    3: #deb2ee,
-    4: #7ee6fd,
-    5: #88d9a0,
-    6: #4da2bb,
-    7: #ec9fa3,
-    8: #fd9f85,
-    9: #b8409a,
-   10: #083a17,
-   11: #34e2a8,
-   12: #80e8d1,
-);
+ // Coloumn colours //
+ $theme-color-1: #927bc1;
+ $theme-color-2: #fd7856;
+ $theme-color-3: #deb2ee;
+ $theme-color-4: #7ee6fd;
+ $theme-color-5: #88d9a0;
+ $theme-color-6: #4da2bb;
+ $theme-color-7: #ec9fa3;
+ $theme-color-8: #fd9f85;
+ $theme-color-9: #e4757a;
+ $theme-color-10: #63cc82;
+ $theme-color-11: #51ddfc;
+ $theme-color-12: #80e8d1;
 
 /* Site layout */
 $max-width: 1400px;
